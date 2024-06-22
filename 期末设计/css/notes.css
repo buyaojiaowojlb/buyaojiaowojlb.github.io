@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+}
+
+div.inner {
+    /* 设置页面内容的宽度 */
+    width: 1000px;
+    /* 设置margin左右为auto表示页面内容居中 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 页眉区 */
+
+header {
+    height: 110px;
+    background-color: #257c73;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 110px;
+}
+
+
+/* 导航区 */
+
+nav {
+    height: 47px;
+    background-color: white;
+    color: white;
+}
+
+nav ul {
+    /* 使用list-style-type把每行元素前的圆点去掉 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* 使用浮动元素，使得四个块元素li能够排列在导航栏 */
+    float: left;
+    width: 250px;
+    /* 使用line-height使得文字上下居中 */
+    line-height: 47px;
+    /* 使用text-aligh=center使得文本在每个块元素li内左右居中 */
+    text-align: center;
+    font-size: 22px;
+}
+
+nav ul li a {
+    /* 使用text-decoration把每个a标签的下划线去掉 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    color: #257c73;
+}
+
+nav ul li a:visited {
+    color: #257c73;
+}
+
+nav ul li a:hover {
+    /* 伪类选择器，当鼠标移动到导航栏上时，背景颜色和字体颜色发生该改变 */
+    color: #54c4b8;
+}
+
+
+/* 主内容区 */
+
+section {
+    background-color: #54c4b8;
+}
+
+section div.inner {
+    height: 850px;
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    border-collapse: collapse;
+    font-family: 宋体;
+    text-align: center;
+    vertical-align: middle;
+}
+
+caption {
+    padding-top: 20px;
+    font-size: 35px;
+    font-family: 宋体;
+}
+
+td,
+th {
+    border: thin solid black;
+}
+
+td.per_pho {
+    background-image: url(../photo/简历照片.JPG);
+    background-size: cover;
+}
+
+
+/* 页脚区 */
+
+footer {
+    height: 90px;
+    background-color: #257c73;
+}
+
+footer div.inner div.la {
+    font-size: 12px;
+    color: #c2c2c2;
+    text-align: center;
+}

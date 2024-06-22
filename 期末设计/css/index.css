@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+}
+
+div.inner {
+    /* 设置页面内容的宽度 */
+    width: 1000px;
+    /* 设置margin左右为auto表示页面内容居中 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* 页眉区 */
+
+header {
+    height: 110px;
+    background-color: #257c73;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 34px;
+    font-weight: bolder;
+    line-height: 110px;
+}
+
+
+/* 导航区 */
+
+nav {
+    height: 47px;
+    background-color: white;
+    color: white;
+}
+
+nav ul {
+    /* 使用list-style-type把每行元素前的圆点去掉 */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    /* 使用浮动元素，使得四个块元素li能够排列在导航栏 */
+    float: left;
+    width: 250px;
+    /* 使用line-height使得文字上下居中 */
+    line-height: 47px;
+    /* 使用text-aligh=center使得文本在每个块元素li内左右居中 */
+    text-align: center;
+    font-size: 22px;
+}
+
+nav ul li a {
+    /* 使用text-decoration把每个a标签的下划线去掉 */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:link {
+    color: #257c73;
+}
+
+nav ul li a:visited {
+    color: #257c73;
+}
+
+nav ul li a:hover {
+    /* 伪类选择器，当鼠标移动到导航栏上时，背景颜色和字体颜色发生该改变 */
+    color: #54c4b8;
+}
+
+
+/* 主内容区 */
+
+section {
+    background-color: #54c4b8;
+}
+
+section div.inner {
+    height: 1800px;
+    background-color: aliceblue;
+    background-size: cover;
+}
+
+section div.elixir {
+    /* 设置边栏区的边界 */
+    border: 2px dotted black;
+    /* 边栏区浮动在内容区右边 */
+    position: fixed;
+    top: 180px;
+    right: 18px;
+    width: 140px;
+    height: 370px;
+    margin-top: 40px;
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #257c73;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 21px;
+}
+
+div#personal {
+    height: 300px;
+}
+
+div#personal div.personal_photo {
+    float: left;
+    height: 200px;
+    width: 150px;
+    margin: 50px;
+    background-image: url(../photo/自己照片.JPG);
+    background-size: cover;
+}
+
+div#personal div.personal_introduction {
+    height: 200px;
+    margin: 50px 50px 50px 0;
+    width: 700px;
+    float: left;
+    font-family: 宋体;
+    font-weight: bolder;
+    /* 字体居中 */
+    line-height: 67px;
+}
+
+p.university_hobby {
+    height: 50px;
+    /* 文本上下居中 */
+    margin: 0px;
+    line-height: 50px;
+    font-size: 30px;
+    /* 文本居中 */
+    text-align: center;
+    font-family: 宋体;
+}
+
+div#hobby {
+    height: 270px;
+}
+
+div#hobby div.hobby_1 {
+    float: left;
+    margin: 47.5px 47.5px 22.5px 47.5px;
+    height: 200px;
+    width: 270px;
+    background-image: url(../photo/球队合照.JPG);
+    background-size: cover;
+}
+
+div#hobby div.hobby_2 {
+    float: left;
+    margin: 47.5px 47.5px 22.5px 0;
+    height: 200px;
+    width: 270px;
+    background-image: url(../photo/摄影.JPG);
+    background-size: cover;
+}
+
+div#hobby div.hobby_3 {
+    float: left;
+    margin: 47.5px 47.5px 22.5px 0;
+    height: 200px;
+    width: 270px;
+    background-image: url(../photo/麻将.JPG);
+    background-size: cover;
+}
+
+div#hobby_intro {
+    height: 150px;
+}
+
+div#hobby_intro div.hobby_intro1 {
+    float: left;
+    margin: 0 47.5px 50px 47.5px;
+    width: 270px;
+}
+
+div#hobby_intro div.hobby_intro2 {
+    float: left;
+    margin: 0 47.5px 50px 0;
+    width: 270px;
+}
+
+div#hobby_intro div.hobby_intro3 {
+    float: left;
+    margin: 0 47.5px 50px 0;
+    width: 270px;
+}
+
+p.first {
+    height: 30px;
+    line-height: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 宋体;
+    font-weight: bold;
+}
+
+p.second {
+    height: 70px;
+    text-align: center;
+    font-family: 宋体;
+}
+
+p.university_life {
+    height: 50px;
+    /* 文本上下居中 */
+    margin: 0px;
+    line-height: 50px;
+    font-size: 30px;
+    /* 文本居中 */
+    text-align: center;
+    font-family: 宋体;
+}
+
+div.monitor {
+    height: 200px;
+    border: 5px #257c73 solid;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 890px;
+}
+
+div.monitor div.mon_photo {
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-image: url(../photo/班级.png);
+    background-size: cover;
+}
+
+div.monitor div.mon_intro {
+    float: left;
+    width: 590px;
+    height: 200px;
+}
+
+div.monitor div.mon_intro div.title {
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+div.monitor div.mon_intro div.text {
+    margin: 0 5px 0 5px;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.luyin {
+    height: 200px;
+    border: 5px #257c73 solid;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 890px;
+}
+
+div.luyin div.luyin_photo {
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-image: url(../photo/建设.jpeg);
+    background-size: cover;
+}
+
+div.luyin div.luyin_intro {
+    float: left;
+    width: 590px;
+    height: 200px;
+}
+
+div.luyin div.luyin_intro div.luyin_title {
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+div.luyin div.luyin_intro div.luyin_text {
+    margin: 0 5px 0 5px;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div.team {
+    height: 200px;
+    border: 5px #257c73 solid;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 890px;
+}
+
+div.team div.team_photo {
+    float: left;
+    width: 300px;
+    height: 200px;
+    background-image: url(../photo/球队合照.JPG);
+    background-size: cover;
+}
+
+div.team div.team_intro {
+    float: left;
+    width: 590px;
+    height: 200px;
+}
+
+div.team div.team_intro div.team_title {
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+div.team div.team_intro div.team_text {
+    margin: 0 5px 0 5px;
+    height: auto;
+    width: auto;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* 页脚区 */
+
+footer {
+    height: 90px;
+    background-color: #257c73;
+}
+
+footer div.inner div.la {
+    font-size: 12px;
+    color: #c2c2c2;
+    text-align: center;
+}

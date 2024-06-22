@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/notes.css">
+</head>
+
+<body>
+    <!-- 使用html5新元素header表示页眉 -->
+    <header>
+        <div class="inner">Welcome to Jiang LIbo's Personal Website!</div>
+    </header>
+
+    <!-- 使用html5新元素nav表示导航区 -->
+    <!-- 使用了浮动布局构建导航栏 -->
+    <nav>
+        <div class="inner">
+            <ul>
+                <li>
+                    <a href="index.htm">个人介绍</a>
+                </li>
+                <li>
+                    <a href="notes.htm"><b>简历</b></a>
+                </li>
+                <li>
+                    <a href="hometown.htm">家乡</a>
+                </li>
+                <li>
+                    <a href="recall.htm">反馈</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 使用html5新元素section表示内容区 -->
+    <section>
+        <!-- 主内容区,以表格的方式来制作简历-->
+        <div class="inner">
+            <table>
+                <caption>
+                    个人简历
+                </caption>
+                <tr>
+                    <!-- 每个width都规定好了，沿用至下面的单元格；第一个单元格的height规定好了，沿用一整行 -->
+                    <td width="100px" height="50px"><b>姓名</b></td>
+                    <td width="100px">蒋立博</td>
+                    <td width="100px"><b>性别</b></td>
+                    <td width="100px">男</td>
+                    <td width="100px"><b>出生年月</b></td>
+                    <td width="100px">2003年11月</td>
+                    <!-- rowspan="4" 表示四个行合并成一行 -->
+                    <td width="150px" rowspan="4" class="per_pho"></td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>民族</b></td>
+                    <td>汉</td>
+                    <td><b>籍贯</b></td>
+                    <td>安徽省蚌埠市</td>
+                    <td><b>政治面貌</b></td>
+                    <td>共青团员</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>婚姻状况</b></td>
+                    <td>未婚</td>
+                    <td><b>现居住地</b></td>
+                    <td>武汉市</td>
+                    <td><b>院校</b></td>
+                    <td>中南财经政法<br>大学</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>联系电话</b></td>
+                    <!-- colsapan="2"表示两个列合并成一个列 -->
+                    <td colspan="2">15623166322</td>
+                    <td><b>邮箱</b></td>
+                    <td colspan="2">166558980@qq.com</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>求职意向</b></td>
+                    <td colspan="6">晚会策划、晚会拍摄、程序编写</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>证书</b></td>
+                    <td colspan="6">英语四级证书</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>主修课程</b></td>
+                    <td colspan="6">运筹学、管理学、概率论、线性代数、高等数学、数据结构、程序设计（C++、Java、Python）</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>教育背景</b></td>
+                    <td colspan="6">中南财经政法大学信息管理与信息系统本科生</td>
+                </tr>
+                <tr>
+                    <td height="100px"><b>自我评价</b></td>
+                    <td colspan="6">熟练掌握word、excel等办公软件；有独立拍摄、制作视频的能力，熟练使用pr、ae等软件进行后期剪辑。组织办事能力强、语言沟通能力强。
+                    </td>
+                </tr>
+                <tr>
+                    <td height="100px"><b>所获荣誉</b></td>
+                    <td colspan="6">2022-2023年度，获得五四表彰校级“优秀学生干部”；  </td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>人生目标</b></td>
+                    <td colspan="6">我要赚很多很多钱让家人过上美满的生活</td>
+                </tr>
+                <tr>
+                    <td height="50px"><b>人生格言</b></td>
+                    <td colspan="6">在等待的日子里，刻苦读书，谦卑做人，养得深根，日后才能枝叶茂盛，开花结果。</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+
+    <!-- 使用html5新元素footer表示页脚 -->
+    <footer>
+        <div class="inner">
+            <div class="la">
+                蒋立博_202221130059&nbsp;&nbsp;&nbsp;&nbsp;&copy;中南财经政法大学信息与安全工程学院信息管理与信息系统2022&nbsp;&nbsp;&nbsp;&nbsp;ALL RIGHTS RESERVED
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

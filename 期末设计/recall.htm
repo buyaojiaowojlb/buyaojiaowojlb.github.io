@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/recall.css">
+</head>
+
+<body>
+    <!-- 使用html5新元素header表示页眉 -->
+    <header>
+        <div class="inner">Welcome to Jiang LIbo's Personal Website!</div>
+    </header>
+
+    <!-- 使用html5新元素nav表示导航区 -->
+    <!-- 使用了浮动布局构建导航栏 -->
+    <nav>
+        <div class="inner">
+            <ul>
+                <li>
+                    <a href="index.htm">个人介绍</a>
+                </li>
+                <li>
+                    <a href="notes.htm">简历</a>
+                </li>
+                <li>
+                    <a href="hometown.htm">家乡</a>
+                </li>
+                <li>
+                    <a href="recall.htm"><b>反馈</b></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 使用html5新元素section表示内容区 -->
+    <section>
+        <!-- 主内容区使用了表格的方式设计了一个表单来对使用者进行用户反馈 -->
+        <div class="inner">
+            <div class="title">
+                请写下您的反馈！
+            </div>
+            <!-- form的display是table -->
+            <form action="" method="post">
+                <!-- table的display是table-row -->
+                <div class="tablerow">
+                    <p>您的姓名：</p>
+                    <p>
+                        <!-- 单行文本框，placeholde表示默认显示内容 -->
+                        <input type="text" placeholder="张三">
+                    </p>
+                </div>
+                <div class="tablerow">
+                    <p>您的性别：</p>
+                    <p>
+                        <!-- 单选 -->
+                        <input type="radio" name="xingbie" value="man" id="man"> 男<br>
+                        <input type="radio" name="xingbie" value="woman" id="woman" checked> 女
+                    </p>
+                </div>
+                <div class="tablerow">
+                    <p>您的邮箱：</p>
+                    <p>
+                        <!-- 使用了html5新元素email -->
+                        <input type="email" placeholder="421423402@qq.com">
+                    </p>
+                </div>
+                <div class="tablerow">
+                    <p>您的反馈：</p>
+                    <p>
+                        <!-- 大文本框 -->
+                        <textarea name="fankui" placeholder="（必填项）"></textarea>
+                    </p>
+                </div>
+                <div class="tablerow">
+                    <p></p>
+                    <p>
+                        <!-- 按钮 -->
+                        <input type="submit" value="提交反馈">
+                    </p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+    <!-- 使用html5新元素footer表示页脚 -->
+    <footer>
+        <div class="inner">
+            <div class="la">
+                蒋立博_202221130059&nbsp;&nbsp;&nbsp;&nbsp;&copy;中南财经政法大学信息与安全工程学院信息管理与信息系统2022&nbsp;&nbsp;&nbsp;&nbsp;ALL RIGHTS RESERVED
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
